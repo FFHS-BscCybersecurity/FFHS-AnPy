@@ -56,5 +56,3 @@ plt.legend()
 plt.yscale('log')  # Logarithmische Skala für bessere Visualisierung
 plt.show()
 
-from sympy import *
-from fractions import Fraction
