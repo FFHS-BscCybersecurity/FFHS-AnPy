@@ -10,6 +10,8 @@ x_genau = np.linspace(0, 2 * np.pi, 100)
 y_genau = np.sin(x_genau)
 
 # Festlegen der Koordinatenpunkte (Stützpunkte)
+# ---
+## Hier sind vier Punkte angegeben. Wenn mehr Punkte gewählt werden, wird die Approximation immer genauer (z.b. siehe bei Wahl von 10)
 x_koordinate = np.linspace(0, 2 * np.pi, 4)
 y_koordinate = np.sin(x_koordinate)
 
