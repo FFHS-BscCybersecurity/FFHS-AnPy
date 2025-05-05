@@ -15,7 +15,7 @@ y_genau = np.sin(x_genau)
 x_koordinate = np.linspace(0, 2 * np.pi, 4)
 y_koordinate = np.sin(x_koordinate)
 
-# Erstellt die Approximation mittels "CubicSpline" aus sympy
+# Erstellt die Approximation mittels "CubicSpline" aus scipy
 cs = CubicSpline(x_koordinate, y_koordinate)
 
 # Generiert y-Werte für die Spline-Approximation
