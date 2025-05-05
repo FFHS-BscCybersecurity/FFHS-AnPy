@@ -32,4 +32,3 @@ plt.title('Approximation einer nichtlinearen Kurve (Kubischer Spline)')
 plt.legend()
 plt.grid(True)
 plt.show()
-
